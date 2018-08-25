@@ -1,11 +1,11 @@
 # AMQPSender 1.1.0 library for Node.js
 
-AMQPSender is a library that allows developers to send AMQP messages with persistence transparently.
+AMQPSender is a library that allows developers to send AMQP messages with persistence transparently
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing 
-purposes. See deployment for notes on how to deploy the project on a live system.
+purposes. See deployment for notes on how to deploy the project on a live system
 
 ### Dependences
 
@@ -20,8 +20,8 @@ AMQPSender requires the packages:
 
 ### Installing
 
-If you already have Node.js and npm on your system you can install the library simply by downloading the distribution, 
-unpack it and install in the usual fashion:
+If you already have `Node.js` and `npm` on your system you can install the library simply by downloading the 
+distribution, unpack it and install in the usual fashion:
 
 ```
 npm install amqp-sender
@@ -30,7 +30,7 @@ npm install amqp-sender
 ## Usage
 
 The recommended way to use `amqp-sender` is to create your own sender. You can send messages and you should try to send 
-pending messages periodically.
+pending messages periodically
 
 ```js
 const AMQPSender = require('amqp-sender');
@@ -54,13 +54,13 @@ sender.send_message({
 
 ## Running the tests
 
-If you want to execute tests to try AMQPSender you have the folder ./tests/ which includes four tests:
+If you want to execute tests to try AMQPSender you have the folder `./tests/` which includes four tests:
  * [send_json_default.js](tests/send_json_default.js) - Example of sending a JSON to a default RabbitMQ Server
  * [send_multiple_jsons.js](tests/send_multiple_jsons.js) - Example of sending multiple JSONs
  * [using_custom_amqp.js](tests/using_custom_amqp_server.js) - Example of sending a JSON to a custom AMQP Server
  * [using_logger.js](tests/using_logger.js) - Example of sending a JSON logging using a Winston logger
  
-IMPORTANT!! To test using_logger.js you have to install Winston which is not a dependence by default.
+**__IMPORTANT!!__** To test `using_logger.js` you have to install Winston which is not a dependence by default
 
 ## Authors
 
