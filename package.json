@@ -1,0 +1,29 @@
+{
+  "name": "amqp-sender",
+  "version": "1.1.0",
+  "description": "API to send AMQP messages with persistence transparently",
+  "keywords": [
+    "amqp",
+    "sender",
+    "messaging",
+    "rabbitmq",
+    "persistence",
+    "amqp api"
+  ],
+  "homepage": "https://github.com/WolfyLPDC/amqp-sender",
+  "bugs": {
+    "url": "https://github.com/WolfyLPDC/amqp-sender/issues",
+    "email": "marcsole@mailbox.org"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Marc Solé Fonte",
+    "email": "marcsole@mailbox.org"
+  },
+  "private": true,
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "lowdb": "^1.0.0",
+    "shortid": "^2.2.13"
+  }
+}
