@@ -33,8 +33,7 @@ const amqp_server = AMQPSender.obtain_url(user, password, host, port,
 const sender = new AMQPSender(exchange, queue, routing_key, queue_path, amqp_server);
 
 // Sending the message
-// This is going to fail because the defined server does not exists and the sender
-// it's going to try to reconnect eternally.
+// This is going to fail because the defined server does not exists
 
 // Be careful about defining incorrect AMQP Servers
 sender.send_message(json_message)

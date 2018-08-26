@@ -1,4 +1,4 @@
-# Change log for amqp-sender
+# Change log for AMQPSender
 
 ## Changes in v1.1.0 (since v1.0.0)
 
