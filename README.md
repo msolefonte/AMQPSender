@@ -15,7 +15,7 @@ AMQPSender requires the packages:
 - [shortid](https://github.com/dylang/shortid) - To identify the stored messages
 
 [Optional]
-- [winston](https://github.com/winstonjs/winston) - To add a log to AMQPServer. By default there is no log
+- [winston](https://github.com/winstonjs/winston) - To add a log to AMQPSender. By default there is no log
 
 
 ### Installing
