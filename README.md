@@ -83,6 +83,7 @@ This project is licensed under the MIT License - see the
 
 ## Changelog
 
-- 1.0 - 24/08/2018 - Initial release.
-- 1.1 - 27/08/2018 - Now, methods of the API send_message() and send_pending_messages() implement a Promise
-- 1.2 - 27/08/2018 - Now, sent messages are not stringified
+- 1.0.0 - 24/08/2018 - Initial release.
+- 1.1.0 - 27/08/2018 - Now, methods of the API send_message() and send_pending_messages() implement a Promise
+- 1.2.0 - 27/08/2018 - Now, sent messages are not stringified
+- 1.2.1 - 02/09/2018 - Solves a bug with concurrency

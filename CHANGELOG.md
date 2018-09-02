@@ -1,5 +1,9 @@
 # Change log for AMQPSender
 
+## Changes in v1.2.1 (since v1.2.0)
+
+ * Solves a bug with concurrency
+
 ## Changes in v1.2.0 (since v1.1.0)
 
  * Now, sent messages are not stringified
