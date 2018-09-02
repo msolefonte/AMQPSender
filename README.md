@@ -1,4 +1,4 @@
-# AMQPSender 1.2.0 library for Node.js
+# AMQPSender 1.2.1 library for Node.js
 
 AMQPSender is a library that allows developers to send AMQP messages with persistence transparently
 
