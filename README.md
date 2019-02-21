@@ -55,25 +55,25 @@ sender.send_message({
 ## Running the tests
 
 If you want to execute tests to try AMQPSender you have the folder `./tests/` which includes four tests:
- * [send_json_default.js](https://github.com/WolfyLPDC/AMQPSender/blob/master/tests/send_json_default.js) - Example of 
+ * [send_json_default.js](https://github.com/msolefonte/AMQPSender/blob/master/tests/send_json_default.js) - Example of 
  sending a JSON to a default RabbitMQ Server
- * [send_multiple_jsons.js](https://github.com/WolfyLPDC/AMQPSender/blob/master/tests/send_multiple_jsons.js) - Example 
+ * [send_multiple_jsons.js](https://github.com/msolefonte/AMQPSender/blob/master/tests/send_multiple_jsons.js) - Example 
  of sending multiple JSONs
- * [using_custom_amqp.js](https://github.com/WolfyLPDC/AMQPSender/blob/master/tests/using_custom_amqp_server.js) - 
+ * [using_custom_amqp.js](https://github.com/msolefonte/AMQPSender/blob/master/tests/using_custom_amqp_server.js) - 
  Example of sending a JSON to a custom AMQP Server
- * [using_logger.js](https://github.com/WolfyLPDC/AMQPSender/blob/master/tests/using_logger.js) - Example of sending a 
+ * [using_logger.js](https://github.com/msolefonte/AMQPSender/blob/master/tests/using_logger.js) - Example of sending a 
  JSON logging using a Winston logger
  
 **__IMPORTANT!!__** To test `using_logger.js` you have to install Winston which is not a dependence by default
 
 ## Authors
 
-* **Marc Solé Fonte** - *Initial work* - [WolfyLPDC](https://github.com/WolfyLPDC/)
+* **Marc Solé Fonte** - *Initial work* - [msolefonte](https://github.com/msolefonte/)
 
 ## License
 
 This project is licensed under the MIT License - see the 
-[LICENSE.md](https://github.com/WolfyLPDC/AMQPSender/blob/master/LICENSE.md) file for details
+[LICENSE.md](https://github.com/msolefonte/AMQPSender/blob/master/LICENSE.md) file for details
 
 ## Acknowledgments
 
